@@ -7,51 +7,54 @@
     padding: 0;
 }
 /* FIM RESET CSS */
-div > div
-{
-    margin: 20px 10px;
-}
-/* INÍCIO TITULO */
-/* #div-titulo
-{
-    margin: 20px 10px;
-} */
-#txt-titulo
-{
-    padding: 2px;
-}
-#txt-subtitulo
-{
-    padding: 2px;
-    color: gray;
-    /* font-weight: bold; */
-}
-/* FIM TITULO */
 
-/* INÍCIO DESCRIÇÃO */
-/* #div-descricao
-{
-    margin: 20px 10px;
-} */
-#txt-descricao
-{
-    color: black;
-    font-weight: bold;
-    width: 330px;
-}
-/* FIM DESCRIÇÃO */
+/* INÍCIO TELA UM */
+    #div-telaum > div
+    {
+        margin: 20px 10px;
+    }
+    /* INÍCIO TITULO */
+    /* #div-titulo
+    {
+        margin: 20px 10px;
+    } */
+    #txt-titulo
+    {
+        padding: 2px;
+    }
+    #txt-subtitulo
+    {
+        padding: 2px;
+        color: gray;
+        /* font-weight: bold; */
+    }
+    /* FIM TITULO */
 
-/* INÍCIO BOTÃO */
-/* #div-botao
-{
-    margin: 20px 10px;
-} */
-#btn-botao
-{
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    background-color: green;
-}
-/* FIM BOTÃO */
+    /* INÍCIO DESCRIÇÃO */
+    /* #div-descricao
+    {
+        margin: 20px 10px;
+    } */
+    #txt-descricao
+    {
+        color: black;
+        font-weight: bold;
+        width: 330px;
+    }
+    /* FIM DESCRIÇÃO */
+
+    /* INÍCIO BOTÃO */
+    /* #div-botao
+    {
+        margin: 20px 10px;
+    } */
+    #btn-botao
+    {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        background-color: green;
+    }
+    /* FIM BOTÃO */
+/* FIM TELA UM */
