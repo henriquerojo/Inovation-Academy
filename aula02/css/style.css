@@ -9,6 +9,11 @@
 /* FIM RESET CSS */
 
 /* INÍCIO TELA UM */
+    #div-telaum
+    {
+        background-image: linear-gradient(#fff, #949090);
+        width: 330px;
+    }
     #div-telaum > div
     {
         margin: 20px 10px;
