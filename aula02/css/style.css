@@ -58,3 +58,28 @@
     }
     /* FIM BOTÃO */
 /* FIM TELA UM */
+
+/* INÍCIO IMAGENS */
+.quadrado
+{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid;
+    border-color: red;
+    width: 400px;
+    height: 400px;
+}
+.quadrado div
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.imagem_gato
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* FIM IMAGENS */
