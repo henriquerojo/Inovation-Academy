@@ -88,3 +88,97 @@
     object-fit: cover;
 }
 /* FIM IMAGENS */
+
+/* INÍCIO FORMULÁRIOS */
+.inp-buscar
+{
+    padding: 10px;
+    border: 0.5px solid rgba(165,158,158, 0.5);
+    display: block; 
+    margin: 20px auto;
+}
+
+.inp-buscar:focus
+{
+    outline: none;
+}
+
+.inp-buscar::placeholder
+{
+    color: #999;
+    font-style: normal;
+    /* opacity: 0.5; */
+}
+
+.inp-google
+{
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #999;
+    display: block; 
+    margin: 20px auto;
+}
+
+.inp-google:focus
+{
+    outline: none;
+}
+
+.div-linkedin
+{
+    margin: 20px auto;
+    width: 600px;
+}
+
+.div-linkedin > p,
+.div-linkedin > input,
+.div-linkedin > button
+{
+    margin-top: 10px;
+}
+
+.p-email
+{
+    width: 40px; 
+    color: gray;
+}
+
+.p-politica
+{
+    width: 600px;
+    color: gray;
+}
+
+.inp-linkedin
+{
+    border: 2px solid rgb(128, 125, 125);
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.inp-linkedin:focus
+{
+    outline: none;
+}
+
+.btn-linkedin
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    font-weight: bold;
+    font-size: 11pt;
+    cursor: pointer;
+}
+
+.btn-linkedin:hover
+{
+    opacity: 0.8;
+}
+/* FIM FORMULÁRIOS */
