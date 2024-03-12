@@ -96,6 +96,7 @@
     border: 0.5px solid rgba(165,158,158, 0.5);
     display: block; 
     margin: 20px auto;
+    border-radius: 5px;
 }
 
 .inp-buscar:focus

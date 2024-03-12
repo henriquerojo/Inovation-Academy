@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Display</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto";
+        }
+        .div-inputs
+        {
+            /* border: 5px solid red; */
+        }
+        .div-inputs input
+        {
+            display: block;
+            padding: 10px;
+            width: 200px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            margin: 20px auto;
+        }
+
+        .div-inputs input:focus
+        {
+            outline: none;
+        }
+
+        .div-inputs input::placeholder
+        {
+            font-size: 12pt;
+        }
+        .div-paragrafo
+        {
+            margin: 20px auto;
+            width: 500px;
+            display: flex;
+            align-items: center;
+            /* border: 5px solid red; */
+        }
+        .div-paragrafo p
+        {
+            display: inline-block;
+            width: 300px;
+        }
+        .btn-div-paragrafo
+        {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .btn-div-paragrafo button
+        {
+            padding: 5px;
+            cursor: pointer;
+        }
+        .div-formulario
+        {
+            width: 500px;
+            margin: 20px auto;
+            /* border: 5px solid red; */
+        }
+        .div-formulario form div,
+        .div-formulario form button
+        {
+            margin-top: 10px;
+        }
+        .div-formulario form div input
+        {
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 10px;
+        }
+        .div-formulario form div input:focus
+        {
+            outline: none;
+        }
+        .div-nomesobrenome
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        .div-formulario form div input[type="text"]
+        {
+            width: calc(50% - 3px);
+            box-sizing: border-box;
+        }
+        .div-formulario form div input[type="email"]
+        {
+            width: 100%;
+            box-sizing: border-box; /* isso define que o padding e o border estão inclusos na largura total */
+        }
+        .div-formulario form button
+        {
+            width: 100%;
+            height: 45px;
+            color: white;
+            background-color: rgb(93, 93, 221);
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 12pt;
+        }
+        .div-form-uber
+        {
+            width: 500px;
+            margin: 20px auto;
+            /* border: 5px solid red; */
+        }
+        .div-form-uber div p
+        {
+            width: 100%;
+            color: black;
+            /* font-weight: bold; */
+            font-size: large;
+            font-size: 25pt;
+        }
+        .div-form-uber div input
+        {
+            margin: 5px auto;
+            padding: 15px;
+            background-color: rgb(238, 238, 238);
+            border: none;
+            width: 100%;
+        }
+        .div-form-uber div input:focus
+        {
+            outline: none;
+        }
+        .div-form-uber div input::placeholder
+        {
+            color: rgb(158, 148, 148);
+        }
+        .div-form-uber-div-btn
+        {
+            margin-top: 15px;
+            display: flex; 
+            justify-content: space-between;
+        }
+        .btn-solicite
+        {
+            width: 40%;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 10pt;
+        }
+        .btn-agendar
+        {
+            width: 55%;
+            background-color: rgb(238, 238, 238);
+            color: black;
+            font-weight: bold;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-inputs">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+    </div>
+    <div class="div-paragrafo">
+        <p>Obrigado por conversar com nosso suporte ao cliente. Gostaria de responder à nossa pesquisa rápida?</p>
+        <div class="btn-div-paragrafo">
+            <button>Sim</button>
+            <button>Não</button>
+        </div>
+    </div>
+    <div class="div-formulario">
+        <form action="">
+            <div class="div-nomesobrenome">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Sobrenome">
+            </div>
+            <div>
+                <input type="email" placeholder="Email">
+            </div>
+            <button>Cadastre-se</button>
+        </form>
+    </div>
+    <div class="div-form-uber">
+        <form action="">
+            <div>
+                <p>Solicite uma Viagem</p>
+            </div>
+            <div>
+                <input type="text" placeholder="Insira o local de partida">
+                <input type="text" placeholder="Insira o destino">
+            </div>
+            <div class="div-form-uber-div-btn">
+                <button class="btn-solicite">Solicite Agora</button>
+                <button class="btn-agendar">Agendar para mais tarde</button>
+            </div>
+        </form>
+    </div>
+    <div class="containergato">
+        
+    </div>
+</body>
+</html>
