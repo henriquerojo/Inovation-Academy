@@ -168,6 +168,58 @@
             cursor: pointer;
             font-size: 10pt;
         }
+        .cardgato
+        {
+            width: 500px;
+            margin: 20px auto;
+            box-shadow: 0px 0px 10px rgb(149, 144, 144);
+        }
+        .cardgato img
+        {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .cardgato div h2
+        {
+            margin: 0px 0px 10px 10px;
+        }
+        .cardgato div p
+        {
+            color: rgb(163, 151, 151);
+            font-weight: bold;
+            margin: 0px 0px 10px 10px;
+        }
+        .cardgato div button
+        {
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+            margin: 0px 0px 10px 10px;
+            font-size: 15pt;
+        }
+        .containergato
+        {
+            display: flex;
+            justify-content: center;
+        }
+
+        .cardgato2
+        {
+            width: 300px;
+            margin:0px 20px 0px 0px;
+        }
+        .cardgato2 div button
+        {
+            font-size: 10pt;
+        }
+        .cardgato2:last-child 
+        {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -209,8 +261,39 @@
             </div>
         </form>
     </div>
+    <div class="cardgato">
+        <img src="images/gato.jpg" alt="imagem de um gato miando">
+        <div>
+            <h2>Oliver</h2>
+            <p>2 amigos em comum</p>
+            <button>Adicionar amigo</button>
+        </div>
+    </div>
     <div class="containergato">
-
+        <div class="cardgato cardgato2">
+            <img src="images/gato.jpg" alt="imagem de um gato miando">
+            <div>
+                <h2>Oliver</h2>
+                <p>2 amigos em comum</p>
+                <button>Adicionar amigo</button>
+            </div>
+        </div>
+        <div class="cardgato cardgato2">
+            <img src="images/gato.jpg" alt="imagem de um gato miando">
+            <div>
+                <h2>Oliver</h2>
+                <p>2 amigos em comum</p>
+                <button>Adicionar amigo</button>
+            </div>
+        </div>
+        <div class="cardgato cardgato2">
+            <img src="images/gato.jpg" alt="imagem de um gato miando">
+            <div>
+                <h2>Oliver</h2>
+                <p>2 amigos em comum</p>
+                <button>Adicionar amigo</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
