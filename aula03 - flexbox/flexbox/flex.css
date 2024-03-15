@@ -1,0 +1,28 @@
+/* *
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.container
+{
+    background-color: aquamarine;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* centralizar na horizontal */
+    align-items: flex-end; /* centralizar na vertical */
+    align-content: center; 
+}
+
+.container div
+{
+    background-color: #25795d;
+    color: white;
+    width: 120px;
+    /* height: 80px; */
+    font-size: 16px;
+    margin: 5px;
+}
