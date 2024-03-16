@@ -1,0 +1,43 @@
+.banner
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.esquerda
+{
+    width: 50%;
+}
+
+.esquerda h2
+{
+    color: blueviolet;
+    font-size: 15px;
+    padding: 5px 0px;
+}
+
+.esquerda h1
+{
+    padding: 5px 0px;
+    font-size: 45px;
+}
+
+.p-conteudo1
+{
+    padding: 5px 0px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.esquerda a
+{
+    margin-bottom: 200px;
+}
+
+.p-conteudo2
+{
+    padding: 5px 0px;
+    font-size: 20px;
+    margin-top: 20px;
+}
