@@ -3,6 +3,7 @@
     width: 80%;
     margin: 0 auto;
     padding: 50px 0px;
+    display: flex;
 }
 
 .esquerda
@@ -40,4 +41,56 @@
     padding: 5px 0px;
     font-size: 20px;
     margin-top: 20px;
+}
+
+.direita
+{
+    width: 50%;
+    display: flex;
+}
+
+.direita div
+{
+    width: 50%;
+}
+
+.div-direita-esquerda
+{
+    border:2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    
+}
+
+.clm
+{
+    border: 1px solid red;
+    width: 100%;
+}
+
+.clm-1
+{
+    height: 80%;
+}
+
+.clm-2
+{
+    height: 20%;
+}
+
+.clm-3
+{
+
+}
+
+.clm-4
+{
+
+}
+
+.div-direita-direita
+{
+    border: 2px solid blue;
 }
