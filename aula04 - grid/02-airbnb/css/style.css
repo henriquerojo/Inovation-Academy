@@ -52,12 +52,57 @@ main
 .box-button a
 {
     color: black;
+<<<<<<< HEAD
+    text-decoration: underline;
+=======
     text-decoration: none;
+>>>>>>> cc9d8531458bf3f67ae09f4d1f08f0dd1ad51022
 }
 
 .photos
 {
     display: grid;
+<<<<<<< HEAD
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+img
+{
+    overflow: hidden; /* evitar que as imagens vazem para fora de suas células */
+}
+
+img-1
+{
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+    object-fit: cover;
+}
+
+img-2
+{
+    grid-column: ;
+    grid-row: ;
+    object-fit: cover;
+}
+
+img-3
+{
+
+}
+
+img-4
+{
+
+}
+
+img-5
+{
+
+}
+=======
     grid-template-rows: 180px 180px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
@@ -95,3 +140,4 @@ main
 {
     border-radius: 10px 0px 0px 10px;
 } */
+>>>>>>> cc9d8531458bf3f67ae09f4d1f08f0dd1ad51022
